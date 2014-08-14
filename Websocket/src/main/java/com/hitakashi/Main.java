@@ -105,8 +105,6 @@ public class Main extends WebSocketClient {
 
         //add reuqest header
         con.setRequestMethod("POST");
-        //con.setRequestProperty("User-Agent", USER_AGENT);
-        //con.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
         con.addRequestProperty("Content-Type", "application/x-www-form-urlencoded");
 
         String urlParameters = "login=USERNAME&pass=PASSWORD";
