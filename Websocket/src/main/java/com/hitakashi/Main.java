@@ -21,6 +21,9 @@ import org.java_websocket.handshake.ServerHandshake;
 /**
  *
  * @author Alex
+ *
+ * This shouldn't be used right out of the box. It's just to show you HOW to connect to websockets. 
+ *
  */
 public class Main extends WebSocketClient {
 
